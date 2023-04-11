@@ -36,7 +36,7 @@ A cohort with the highest retention rate on a third month comes from the users t
 
 6) Often for qualitative audience analysis, segmentation-based approaches are used. Create an RFM segementation of users to assess audience quality. In clustering, selected the following metric: R (receny) - time from the user's last purchase to the current date. F (frequency) - total number of purchases by the user over time. M (monetary value) - the total amount of purchases over time. For each RFM segment, created boundaries for the recency, frequency, and monetary metrics for interpreting these clusters. 
 
-#Defining the segments
+Defining the segments
 Best Customers – This group consists of those customers who are found in R-Tier-1, F-Tier-1 and M-Tier-1, meaning that they transacted recently, do so often and spend more than other customers. A shortened notation for this segment is 4-4-4; we’ll use this notation going forward.
 High-Spending New Customers – This group consists of those customers in 4-1-1 and 4-1-2. These are customers who transacted only once, but very recently and they spent a lot. A shortened notation for this segment is 4-1-X, where X is either 1 or 2.
 Lowest-Spending Active Loyal Customers – This group consists of those customers in segments 4-4-1 and 4-4-2 (they transacted recently and do so often, but spend the least). A shortened notation for this segment is 4-4-1/2.
