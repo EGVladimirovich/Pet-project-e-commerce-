@@ -27,6 +27,7 @@ Special-occasion items: Consumers may be more likely to search and purchase spec
 Unique or rare items: Consumers who are interested in unique or rare items may be more likely to browse and make purchases on weekends, as they may have more leisure time to explore specialized online marketplaces or auction sites. However, some collectors or enthusiasts may also make purchases on weekdays, depending on their personal schedule and preferences.
 
 4) What is the average number of purchases per week for each user (by month)?
+
 Again, we see that the highest number of weekly purchases is 1.35. Which confirms our assumption that this e-commerce platform sells only big-ticket, special-occasion, and unique or rare items.
 
 5) Using pandas, conduct a cohort analysis of users. In the period from January to December, identify the cohort with the highest retention rate in the third month.
@@ -35,7 +36,7 @@ A cohort with the highest retention rate on a third month comes from the users t
 
 6) Often for qualitative audience analysis, segmentation-based approaches are used. Create an RFM segementation of users to assess audience quality. In clustering, selected the following metric: R (receny) - time from the user's last purchase to the current date. F (frequency) - total number of purchases by the user over time. M (monetary value) - the total amount of purchases over time. For each RFM segment, created boundaries for the recency, frequency, and monetary metrics for interpreting these clusters. 
 
-##Defining the segments
+#Defining the segments
 Best Customers – This group consists of those customers who are found in R-Tier-1, F-Tier-1 and M-Tier-1, meaning that they transacted recently, do so often and spend more than other customers. A shortened notation for this segment is 4-4-4; we’ll use this notation going forward.
 High-Spending New Customers – This group consists of those customers in 4-1-1 and 4-1-2. These are customers who transacted only once, but very recently and they spent a lot. A shortened notation for this segment is 4-1-X, where X is either 1 or 2.
 Lowest-Spending Active Loyal Customers – This group consists of those customers in segments 4-4-1 and 4-4-2 (they transacted recently and do so often, but spend the least). A shortened notation for this segment is 4-4-1/2.
@@ -43,10 +44,7 @@ Churned Best Customers – This segment consists of those customers in groups 1-
 
 Suggestions for retention of each segment:
 
-Best Customers: To retain these customers, the e-commerce platform could offer personalized incentives and rewards, such as exclusive discounts or early access to new products, to encourage them to continue transacting on the platform. The platform could also provide excellent customer service and support to ensure that these customers feel valued and appreciated.
-
-High-Spending New Customers: offering additional incentives and rewards for their second purchase, such as a discount or free gift might be beneficial to retain them. The platform could also send personalized follow-up emails to thank these customers for their purchase and encourage them to return to the platform.
-
-Lowest-Spending Active Loyal Customers: The e-commerce platform could provide incentives to encourage those customers to increase their spending, such as a loyalty program or points system that rewards customers for making more purchases. The platform could also offer personalized product recommendations and promotions based on the customer's purchase history and preferences.
-
-Churned Best Customers: I'd suggest offering win-back promotions or discounts to encourage those customers to return to the platform. The platform could also conduct surveys or reach out to these customers to understand why they stopped transacting and address any concerns or issues they may have had with the platform.
+1. Best Customers: To retain these customers, the e-commerce platform could offer personalized incentives and rewards, such as exclusive discounts or early access to new products, to encourage them to continue transacting on the platform. The platform could also provide excellent customer service and support to ensure that these customers feel valued and appreciated.
+2. High-Spending New Customers: offering additional incentives and rewards for their second purchase, such as a discount or free gift might be beneficial to retain them. The platform could also send personalized follow-up emails to thank these customers for their purchase and encourage them to return to the platform.
+3. Lowest-Spending Active Loyal Customers: The e-commerce platform could provide incentives to encourage those customers to increase their spending, such as a loyalty program or points system that rewards customers for making more purchases. The platform could also offer personalized product recommendations and promotions based on the customer's purchase history and preferences.
+4. Churned Best Customers: I'd suggest offering win-back promotions or discounts to encourage those customers to return to the platform. The platform could also conduct surveys or reach out to these customers to understand why they stopped transacting and address any concerns or issues they may have had with the platform.
